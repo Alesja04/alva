@@ -8,6 +8,7 @@ import Suupisted from './pages/Suupisted.js';
 import Salatid from './pages/Salatid.js';
 import Joogid from './pages/Joogid.js';
 import Magusad from './pages/Magusad.js';
+// import Header from './components/Header.js';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <Router>
 			<Routes>
 				<Route exact path="/" element={<><Home /><Footer /></>} />
-                <Route exact path="/pasta" element={<Pasta/>} />
+                <Route exact path="/pasta" element={<Pasta/> } />
                 <Route exact path="/joogid" element={<Joogid/>} /> 
                 <Route exact path="/salatid" element={<Salatid/>} />
                 <Route exact path="/suupisted" element={<Suupisted/>} />

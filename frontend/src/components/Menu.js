@@ -23,7 +23,7 @@ export default function Menu() {
       <Row style={{ paddingTop: 50}}>
       <Col style={{ paddingTop: 30}}><a href='/salatid'><img src="./img/salatid.png" alt='logo' width={350} height={250}/></a></Col>
       <Col style={{ paddingTop: 30}} ><a href='/joogid'><img src="./img/joogid.png" alt='logo' width={350} height={250}/></a></Col>
-      <Col ><a href='/joogid'><img src="./img/magusad.png" alt='logo' width={350} height={250}/></a></Col> 
+      <Col ><a href='/magusad'><img src="./img/magusad.png" alt='logo' width={350} height={250}/></a></Col> 
       
     </Row>
       

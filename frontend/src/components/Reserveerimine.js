@@ -1,9 +1,10 @@
     import React from 'react';
     import {Container} from 'react-bootstrap';
     import {Row, Col, Button} from 'react-bootstrap';
-    // import Card from 'react-bootstrap/Card';
+
 
     export default function Reserveerimine() {
+   
         return (
             <Container style={{
               height: 'auto',
@@ -25,7 +26,11 @@
                 Broneerimine 18.00-20.45<br />
             </p>
 
-            <Button className="d-grid gap-2 col-6 mx-auto btn-outline-dark" href="" style={{ backgroundColor: 'rgb(255,255,255,0)'}}>TEE RESERVEERIMINE</Button></Col>
+            <Button onClick="RegForm.js " variant="primary" className="d-grid gap-2 col-6 mx-auto btn-outline-dark" href="" style={{ backgroundColor: 'rgb(255,255,255,0)'}}>TEE RESERVEERIMINE</Button>
+
+
+            
+            </Col>
             <Col sm="6"><img src="./img/reserv.png" alt='logo' width={500} height='auto'/></Col>
               </Row>
         </Container>
